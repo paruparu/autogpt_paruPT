@@ -1,10 +1,14 @@
 # auto gpt paruparu is using.
-- cloned https://github.com/Significant-Gravitas/Auto-GPT/tree/980bbe2bc356e837da114f58941a8abc1d11c1c1
+- cloned and chatched up to v0.4.0 (https://github.com/paruparu/autogpt_paruPT/commit/f4505add69790753d6085926076efd544005daec)
 - installed plugins https://github.com/Significant-Gravitas/Auto-GPT-Plugins/blob/57d9213aec874c8d3a1f9f082120da07517fc7d5/src/autogpt_plugins/wikipedia_search/__init__.py
 - sound effect of toaster when user input is needed.
-- (New) execute command unsafe adventure mode!
+- execute command unsafe adventure mode!
 
-## about this new execute command unsafe adventrue mode
+## noteable changes for paruparu in v0.4.0
+- memory is disactivated for future large modification
+- can read txt, csv, pdf, docx, json, xml, yaml, yml, html,htm, xhtml, md, markdown, tex extenstions.
+
+## execute command unsafe adventrue mode
 - 着想）現在はenv fileでDENY_COMMANDS、ALLOW_COMMANDSが設定できるようになっていて、denyしたものは実行されない。allowしたものしか実行されない。セーフ設計になっているが、これをbool(true,false)denyしたもの以外実行できるモード。
 - 目的）autogptが環境構築を自分でやってみてほしい。自由にしているところを見たい。
 - 実行方法）"EXECUTE_ANY_COMMANDS = True" を.envファイルに追記する。
